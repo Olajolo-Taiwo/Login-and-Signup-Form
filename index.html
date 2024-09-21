@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Login and Signout FORM</title>
+<link rel="stylesheet" href="index.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<main>
+ <header>
+<!--HEADER TAB-->
+ <div id="div">
+   <div id="page" class="login"> MY DIARY </div>
+  <div id="page" class="signup"> MY DIARY </div>
+ </div>
+
+
+<div id="inn">
+
+        <!--SWITCH TAB SECTION-->
+ <div id="inner">
+   <input class="radio" type="radio" name="slide" id="login"checked>
+     <label for="login" id="nav" class="login">Login</label>
+   <input class="radio" type="radio" name="slide"  id="signup" >
+     <label for="signup" id="nav" class="signup">Signup</label>
+    <div id="switch"></div>
+  </div>
+
+  <div id="content">
+ <!-- USER DETAILS SESCTION FOR LOGIN-->
+    <form class="login">
+      <nav class="field"> 
+        <!--EMAIL OR USERNAME INPUT-->
+         <input type="text" placeholder="Username / Email Address " required> 
+        </nav>
+      <nav class="field">
+        <!--PASSWORD INPUT-->
+          <input type="password" placeholder="Password" required> 
+      </nav>
+      <div id="forgotten-password"> 
+        <p>Forgot password?</p> 
+      </div>
+      <nav class="field" id="box_con"> 
+        <div id="box"></div> 
+         <!--SUBMIT BUTTON-->
+        <input id="submit" value="Login" type="submit">
+      </nav>
+      <div id="footer"> create an account? 
+        <p>Signup now</p> 
+      </div>
+    </form>
+<!-- USER DETAILS SESCTION FOR SIGNUP-->
+    <form class="signup">
+      <nav class="field">
+     <!-- USERNAME INPUT--> 
+        <input type="text" placeholder="Username" required> 
+      </nav>
+      <nav class="field">
+           <!--EMAIL INPUT--> 
+        <input type="text" placeholder="Email Address" required> 
+      </nav>
+      <nav class="field"> 
+        <!--PASSWORD INPUT-->
+        <input type="password" placeholder="Password" required> 
+      </nav>
+      <nav> 
+        <input type="password" placeholder="Confirm password" required> 
+      </nav>
+      <nav class="field" id="box_con"> 
+        <div id="box"></div>
+           <!--SUBMIT BUTTON-->
+        <input id="submit" type="submit" value="Signup"> 
+      </nav>
+    </form>
+
+
+  </div>
+</div>
+
+</header>
+</main>
+
+
+<script src="index.js"></script>
+
+</body>
+</html>
